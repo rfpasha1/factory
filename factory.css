@@ -1,0 +1,109 @@
+body {
+	/*background-image: url(img/fon32.png);*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;	
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.name {
+	color: white;
+	font-size: 3.2em;
+	text-shadow: 3px 3px 8px blue;
+	transition: all 1.5s;
+	text-align: center;
+	margin: 1% auto;
+}
+.name:hover {
+	text-shadow: 1px 1px white, 2px 2px white;
+    color: #0000CD;
+}
+#mySelect {
+	text-align: center;
+}
+.main {
+	width: 90%;
+	height: 70%;
+	position: relative;
+}
+#list {
+	margin: 1% 5%;
+}
+#calendar {
+	text-align: center;
+	margin: 1% 5%;
+}
+table {
+	margin : 2% auto;
+	border: 3px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 1.2em;
+	width: 90%;
+}
+th {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	width: 10%;
+}
+td {
+	border: 1px solid black;
+	width: 10%;
+	cursor: pointer;
+}
+th, td:first-child {
+	background: #696969;
+	color: white;
+}
+th:first-child, td:first-child {
+	border-right: 3px solid black;
+}
+td:first-child {
+	font-weight: 700;
+	cursor: text;
+}
+select {
+	margin-left: 2%;
+	margin-bottom: 5%;
+	font-size: 1em;
+	padding: 0.3% 1%;
+	border: 1px #000 solid;
+	border-radius: 5px;
+	width: 90%;
+}
+input {
+	margin-left: 2%;
+	margin-bottom: 5%;
+	border: 1px #000 solid;
+	border-radius: 5px;
+	font-size: 1em;
+	padding: 0.3% 1%;
+	width: 90%;
+}
+form {
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+#btn {
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+#basic {
+	display: flex;
+	flex-wrap: nowrap;
+}
+aside {
+	width: 20%;
+	padding-top: 5%;
+}
+#main {
+	width: 80%;
+}
+#butForm, #butSel, #butSreach {
+	background: #696969;
+	color: white;
+	font-size: 1.3em;
+	margin-bottom: 10%;
+}
