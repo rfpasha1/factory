@@ -1,3 +1,4 @@
+/* ****************************************************************************************** */
 //Создаем список select для сортировки сотрудников по разным свойствам
 /*функция, которая создает select для сортировки или поиска сотрудников по свойствам. Функция принимает в качестве аргументов:
 массив, на основе которого создается select; id - для назаначения атрибута id списка select; 
@@ -14,6 +15,7 @@ function createMySelect(empls, id, value) {
 	createOption(props, mySelect);
 	return mySelect;
 }
+/* ****************************************************************************************** */
 //функция, которая создает option из элементов массива props и добавляет option в список mySelect
 function createOption(props, mySelect) {
 	props.forEach(elem => {
@@ -22,9 +24,10 @@ function createOption(props, mySelect) {
 		myOption.value = elem;                              //присваеваем значение для атрибута value в option 
 		mySelect.appendChild(myOption);                     //присоединяем option к списку mySelect
 	});
-	
+
 }
 
+/* ****************************************************************************************** */
 /*
 Второй способ создания option для select из элементов массива props
 function createOption(props, mySelect) {
